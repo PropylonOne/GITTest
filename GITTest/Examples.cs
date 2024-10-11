@@ -5,14 +5,15 @@ using PX.Objects.IN;
 namespace MyProject
 {
 
-	//Testing GIT Push -dasun changed
-	#region Overriding an existing graph
-	/// <summary>
-	///To override or extend the behavior of an existing graph,
-	///derive a new class from the PXGraphExtension<T> class where T is the original graph type.
-	/// </summary>
-	/// 
-	public class InventoryItemMaintExtension : PXGraphExtension<InventoryItemMaint>
+	//Testing GIT Push -dasun changed updated
+	//-dasun changed updated
+    #region Overriding an existing graph
+    /// <summary>
+    ///To override or extend the behavior of an existing graph,
+    ///derive a new class from the PXGraphExtension<T> class where T is the original graph type.
+    /// </summary>
+    /// 
+    public class InventoryItemMaintExtension : PXGraphExtension<InventoryItemMaint>
 	{
 		protected void InventoryItem_RowSelected(PXCache sender, PXRowSelectedEventArgs e, PXRowSelected del)
 		{
